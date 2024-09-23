@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Martel:wght@600&display=swap');
+
+*root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(zgeTuV.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    justify-content: space-between;
+    max-width: 30vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martel', serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    padding: 0 23px;
+    text-align: center;
+    gap: 23px;
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 34px;
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+/* .sepration{
+    height: 7px;
+    background-color:rgb(46, 44,44);
+} */
+.btn {
+    background-color: white;
+    padding: 3px 8px;
+    border-radius: 7px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: rgba(23, 23, 23, 0.2);
+    /* for transperrant/\ */
+
+}
+
+.btn-red {
+    padding: 3px 24px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 7px;
+    color: aliceblue;
+
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 7px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+
+.secImg video {
+    position: absolute;
+    left: 63px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+.faqbox:hover{
+    background-color: rgb(77, 74, 74);
+
+}
+
+.faqbox {
+    font-size: 24px;
+    justify-content: space-between;
+    color: aliceblue;
+    display: flex;
+    background-color: rgb(47, 45, 45);
+    padding: 22px;
+    max-width: 80vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.faq h2 {
+    font-size: 48px;
+    color: aliceblue;
+    text-align: center;
+}
+footer{
+     display: grid; 
+    grid-template-columns: 1fr 1fr fr 1r;
+    max-width: 60vw;
+    margin: auto;
+    }
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
