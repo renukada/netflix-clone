@@ -55,7 +55,7 @@ nav button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: aliceblue;
+    color: rgb(115, 171, 220);
     position: relative;
     padding: 0 23px;
     text-align: center;
@@ -122,7 +122,7 @@ nav button {
     justify-content: center;
     max-width: 70vw;
     margin: auto;
-    color: aliceblue;
+    color: rgb(65, 111, 150);
     justify-content: center;
     align-items: center;
 }
